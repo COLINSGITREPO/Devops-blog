@@ -41,13 +41,13 @@ To run this project on your local machine, follow these steps:
 1. Clone the repository: 
 
 ```sh
-git clone https://github.com/djangocentral/building-a-blog-application-with-django.git
+git clone [git@github.com:COLINSGITREPO/Devops-blog.git](https://github.com/COLINSGITREPO/Devops-blog.git)
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-cd building-a-blog-application-with-django
+cd DevOps_Blog_App
 ```
 3. Install the required packages:
 
