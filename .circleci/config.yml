@@ -21,7 +21,7 @@ workflows:
 # Define the jobs we want to run for this project
 jobs:
   build:
-    working_directory: ~/CATamara/DevOpsCA$
+    working_directory: ~/DevOpsCA$
     docker:
       - image: circleci/node:10.16.3
     steps:
