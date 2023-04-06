@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0020" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2023-04-05T23:57:08" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Blog app" timestamp="2023-04-05T23:57:08" tests="5" file="/Users/admin/College/groupP/Devops-blog/test/test_utils.js" time="0.0020" failures="5">
+    <testcase name="Blog app should return 200 OK for GET /" time="0.0010" classname="should return 200 OK for GET /">
+      <failure message="app is not defined" type="ReferenceError"><![CDATA[ReferenceError: app is not defined
+    at Context.<anonymous> (test/test_utils.js:7:20)
+    at process.processImmediate (node:internal/timers:478:21)]]></failure>
+    </testcase>
+    <testcase name="Blog app should return 404 Not Found for GET /invalid-url" time="0.0010" classname="should return 404 Not Found for GET /invalid-url">
+      <failure message="app is not defined" type="ReferenceError"><![CDATA[ReferenceError: app is not defined
+    at Context.<anonymous> (test/test_utils.js:13:20)
+    at process.processImmediate (node:internal/timers:478:21)]]></failure>
+    </testcase>
+    <testcase name="Blog app should return a list of blog posts for GET /blog/" time="0.0000" classname="should return a list of blog posts for GET /blog/">
+      <failure message="app is not defined" type="ReferenceError"><![CDATA[ReferenceError: app is not defined
+    at Context.<anonymous> (test/test_utils.js:19:20)
+    at process.processImmediate (node:internal/timers:478:21)]]></failure>
+    </testcase>
+    <testcase name="Blog app should return the first blog post for GET /blog/1/" time="0.0000" classname="should return the first blog post for GET /blog/1/">
+      <failure message="app is not defined" type="ReferenceError"><![CDATA[ReferenceError: app is not defined
+    at Context.<anonymous> (test/test_utils.js:30:20)
+    at process.processImmediate (node:internal/timers:478:21)]]></failure>
+    </testcase>
+    <testcase name="Blog app should return the second blog post for GET /blog/2/" time="0.0000" classname="should return the second blog post for GET /blog/2/">
+      <failure message="app is not defined" type="ReferenceError"><![CDATA[ReferenceError: app is not defined
+    at Context.<anonymous> (test/test_utils.js:40:20)
+    at process.processImmediate (node:internal/timers:478:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

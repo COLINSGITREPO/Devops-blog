@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/Cellar/node/19.8.1/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add mocha-pytest --dev
+
+PATH: 
+  /Users/admin/.rvm/gems/ruby-3.0.0/bin:/Users/admin/.rvm/gems/ruby-3.0.0@global/bin:/Users/admin/.rvm/rubies/ruby-3.0.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/puppetlabs/bin:/Users/admin/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mocha-pytest: Not found
+      at params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at self.callback (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "mathapp",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www",
+      "test": "node_modules/.bin/mocha tests/*.py",
+      "dev": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "ejs": "~2.6.1",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1"
+    },
+    "devDependencies": {
+      "mocha": "^9.2.2",
+      "nodemon": "^2.0.7",
+      "supertest": "^6.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
